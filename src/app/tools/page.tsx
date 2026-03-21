@@ -19,7 +19,7 @@ import { AsciiLarge } from "@/components/ascii-large";
 export default function ToolsPage() {
   return (
     <div className="min-h-screen font-sans selection:bg-foreground/10 dark:selection:bg-foreground/20">
-      <div className="max-w-2xl mx-auto px-6 py-8">
+      <div className="max-w-2xl mx-auto px-4 py-8">
         <Navigation />
 
         <main className="items-center">

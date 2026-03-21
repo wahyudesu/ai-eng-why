@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { HoverPeek } from "./link-preview";
+import Image from "next/image";
 
 export type ListItemProps = {
   id: string;
@@ -27,7 +28,7 @@ export function InteractiveList({ items, onItemClick }: InteractiveListProps) {
         const content = (
           <>
             {item.icon.startsWith?.("http") ? (
-              <img src={item.icon} alt="" className="w-5 h-5 shrink-0" />
+              <Image src={item.icon} alt="" className="w-5 h-5 shrink-0" />
             ) : (
               <span className="text-base shrink-0">{item.icon}</span>
             )}

@@ -52,7 +52,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen font-sans selection:bg-foreground/10 dark:selection:bg-foreground/20">
-      <div className="max-w-2xl mx-auto px-6 py-8">
+      <div className="max-w-2xl mx-auto px-4 py-8">
         <Navigation />
         <main className="flex flex-col gap-16 py-6">
           <header>
@@ -68,19 +68,17 @@ export default function HomePage() {
           </header>
 
           {/* AI Engineers Section */}
-          <section>
-            <h2 className="text-xl font-medium text-foreground mb-2">
+          <section className="gap-3">
+            <h2 className="text-xl font-medium text-foreground">
               AI Engineers
             </h2>
             <InteractiveList items={persons} />
           </section>
 
           {/* Resources Section */}
-          <section>
-            <h2 className="text-base font-medium text-foreground mb-2">
-              Resources
-            </h2>
-            <p className="text-base text-muted-foreground mb-6">
+          <section className="gap-3">
+            <h2 className="text-xl font-medium text-foreground">Resources</h2>
+            <p className="text-base text-muted-foreground mb-4">
               Learn AI engineering from the best resources
             </p>
             <ResourcesFilter

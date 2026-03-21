@@ -15,7 +15,7 @@ export function ResourcesFilter({ resources, filterOptions }) {
 
   return (
     <>
-      <div className="mb-6">
+      <div className="mb-4">
         <SelectorChips
           options={filterOptions}
           onChange={setSelectedCategories}

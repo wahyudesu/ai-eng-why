@@ -4,9 +4,81 @@
       "id": "attention-is-all-you-need",
       "title": "Attention Is All You Need",
       "description": "The seminal paper that introduced the Transformer architecture",
-      "category": "Articles",
+      "category": "Papers",
       "href": "https://arxiv.org/abs/1706.03762",
       "icon": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128"
+    },
+    {
+      "id": "bert-paper",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "description": "BERT paper on bidirectional transformer pre-training",
+      "category": "Papers",
+      "href": "https://arxiv.org/abs/1810.04805",
+      "icon": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128"
+    },
+    {
+      "id": "denoising-diffusion",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "description": "Foundation paper for diffusion models",
+      "category": "Papers",
+      "href": "https://arxiv.org/abs/2006.11239",
+      "icon": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128"
+    },
+    {
+      "id": "neural-scaling-laws",
+      "title": "Neural Scaling Laws for Large Language Models",
+      "description": "Research on scaling laws for LLMs",
+      "category": "Papers",
+      "href": "https://arxiv.org/abs/2001.08361",
+      "icon": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128"
+    },
+    {
+      "id": "ai-engineering-book",
+      "title": "AI Engineering",
+      "description": "O'Reilly's comprehensive AI engineering guide",
+      "category": "Books",
+      "href": "https://www.oreilly.com/library/view/ai-engineering/9781098166302/",
+      "icon": "https://www.google.com/s2/favicons?domain=www.oreilly.com&sz=128"
+    },
+    {
+      "id": "building-llms-for-production",
+      "title": "Building LLMs for Production",
+      "description": "Practical guide to production LLMs",
+      "category": "Books",
+      "href": "https://www.manning.com/books/building-llms-for-production",
+      "icon": "https://www.google.com/s2/favicons?domain=www.manning.com&sz=128"
+    },
+    {
+      "id": "designing-machine-learning-systems",
+      "title": "Designing Machine Learning Systems",
+      "description": "Comprehensive guide to ML system design",
+      "category": "Books",
+      "href": "https://www.amazon.com/dp/1098107969",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com&sz=128"
+    },
+    {
+      "id": "llm-engineers-handbook",
+      "title": "LLM Engineer's Handbook",
+      "description": "Essential handbook for LLM engineers",
+      "category": "Books",
+      "href": "https://www.packtpub.com/product/llm-engineers-handbook/9781835089273",
+      "icon": "https://www.google.com/s2/favicons?domain=www.packtpub.com&sz=128"
+    },
+    {
+      "id": "llms-in-production",
+      "title": "LLMs in Production",
+      "description": "Deploy and scale LLM applications",
+      "category": "Books",
+      "href": "https://www.manning.com/books/llms-in-production",
+      "icon": "https://www.google.com/s2/favicons?domain=www.manning.com&sz=128"
+    },
+    {
+      "id": "prompt-engineering-for-llms",
+      "title": "Prompt Engineering for LLMs",
+      "description": "Master prompt engineering techniques",
+      "category": "Books",
+      "href": "https://www.manning.com/books/prompt-engineering-for-llms",
+      "icon": "https://www.google.com/s2/favicons?domain=www.manning.com&sz=128"
     },
     {
       "id": "building-llm-apps",
@@ -17,60 +89,68 @@
       "icon": "https://www.google.com/s2/favicons?domain=arxiv.org&sz=128"
     },
     {
-      "id": "llm-system-design",
-      "title": "LLM System Design Principles",
-      "description": "Key architectural patterns for building robust LLM systems",
+      "id": "sebastian-raschka-magazine",
+      "title": "Sebastian Raschka's Magazine",
+      "description": "Latest developments and research trends in ML and AI",
       "category": "Articles",
-      "href": "#",
-      "icon": "🏗️"
+      "href": "https://magazine.sebastianraschka.com",
+      "icon": "https://www.google.com/s2/favicons?domain=magazine.sebastianraschka.com&sz=128"
     },
     {
-      "id": "rag-best-practices",
-      "title": "RAG Best Practices",
-      "description": "Production-ready patterns for RAG in enterprise",
+      "id": "towards-data-science",
+      "title": "Towards Data Science",
+      "description": "AI, ML & data-science insights",
       "category": "Articles",
-      "href": "#",
-      "icon": "🔍"
+      "href": "https://towardsdatascience.com",
+      "icon": "https://www.google.com/s2/favicons?domain=towardsdatascience.com&sz=128"
     },
     {
-      "id": "prompt-engineering-guide",
-      "title": "Prompt Engineering Guide",
-      "description": "Techniques for effective prompt design with LLMs",
-      "category": "Advice",
-      "href": "https://www.promptingguide.ai/",
-      "icon": "https://www.google.com/s2/favicons?domain=www.promptingguide.ai&sz=128"
+      "id": "12-factor-agent",
+      "title": "12 Factor Agent",
+      "description": "Principles for building robust AI agents",
+      "category": "Videos",
+      "href": "https://youtu.be/8kMaTybvDUw?si=Z2tUQMsqpdAlXBhN",
+      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
     },
     {
-      "id": "llama-index",
-      "title": "LlamaIndex",
-      "description": "Leading data framework for LLM applications with RAG",
-      "category": "Code",
-      "href": "https://github.com/run-llama/llama_index",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+      "id": "building-gpt-from-scratch",
+      "title": "Building GPT from Scratch",
+      "description": "Step-by-step guide to building GPT",
+      "category": "Videos",
+      "href": "https://youtu.be/kCc8FmEb1nY?si=F7Gpe1aHer7MHr7J",
+      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
     },
     {
-      "id": "langchain",
-      "title": "LangChain",
-      "description": "Popular framework for LLM applications with agents",
-      "category": "Code",
-      "href": "https://github.com/langchain-ai/langchain",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+      "id": "dont-build-agents-build-skills",
+      "title": "Don't Build Agents, Build Skills Instead",
+      "description": "Barry Zhang & Mahesh Murag from Anthropic on skill-based AI architecture",
+      "category": "Videos",
+      "href": "https://youtu.be/CEvIs9y1uog?si=CBFzZ2CGl_FAAQcR",
+      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
     },
     {
-      "id": "autogen",
-      "title": "AutoGen",
-      "description": "Microsoft's multi-agent framework for AI applications",
-      "category": "Code",
-      "href": "https://github.com/microsoft/autogen",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+      "id": "fast-ai-practical-deep-learning",
+      "title": "Fast.ai Practical Deep Learning",
+      "description": "Practical deep learning course for coders",
+      "category": "Videos",
+      "href": "https://www.fast.ai/",
+      "icon": "https://www.google.com/s2/favicons?domain=www.fast.ai&sz=128"
     },
     {
-      "id": "haystack",
-      "title": "Haystack",
-      "description": "Open-source NLP framework for LLM-powered systems",
-      "category": "Code",
-      "href": "https://github.com/deepset-ai/haystack",
-      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
+      "id": "finetune-llm-claude-code",
+      "title": "Fine-Tune an Open Source LLM with Claude Code/Codex",
+      "description": "Guide to fine-tuning LLMs using Claude",
+      "category": "Videos",
+      "href": "https://youtu.be/HGPTUc7tEq4?si=dnM1qmY6aSyDQHGo",
+      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
+    },
+    {
+      "id": "python-essentials-ai-agents",
+      "title": "Python Essentials for AI Agents",
+      "description": "Python fundamentals for building AI agents",
+      "category": "Videos",
+      "href": "https://youtu.be/UsfpzxZNsPo?si=EkWm-jyx3JhDBUn8",
+      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
     },
     {
       "id": "ai-engineering-hub",
@@ -81,45 +161,45 @@
       "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
     },
     {
-      "id": "rise-of-ai-engineering",
-      "title": "The Rise of AI Engineering",
-      "description": "How AI engineering emerged as a critical discipline",
-      "category": "Inspiration",
-      "href": "#",
-      "icon": "🚀"
+      "id": "ai-engineering-toolkit",
+      "title": "AI Engineering Toolkit",
+      "description": "Comprehensive toolkit for AI engineering",
+      "category": "Code",
+      "href": "https://github.com/Sumanth077/ai-engineering-toolkit",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
     },
     {
-      "id": "karpathy-llm-course",
-      "title": "Andrej Karpathy's LLM Course",
-      "description": "Building language models from scratch",
-      "category": "Videos",
-      "href": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9CaThH7WMAiqkXc8i",
-      "icon": "https://www.google.com/s2/favicons?domain=www.youtube.com&sz=128"
+      "id": "llms-from-scratch",
+      "title": "LLMs from Scratch",
+      "description": "Interactive deep learning: building LLMs from scratch",
+      "category": "Code",
+      "href": "https://github.com/rasbt/LLMs-from-scratch",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
     },
     {
-      "id": "fast-ai-practical-deep-learning",
-      "title": "Fast.ai Practical Deep Learning",
-      "description": "Practical deep learning course for coders",
-      "category": "Videos",
-      "href": "https://www.fast.ai/",
-      "icon": "https://www.google.com/s2/favicons?domain=www.fast.ai&sz=128"
+      "id": "system-prompts-and-models",
+      "title": "System Prompts and Models of AI Tools",
+      "description": "Collection of system prompts and AI tool models",
+      "category": "Code",
+      "href": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
     }
   ],
   "categories": [
     {
+      "id": "papers",
+      "label": "Papers",
+      "icon": "Scroll"
+    },
+    {
+      "id": "books",
+      "label": "Books",
+      "icon": "Book"
+    },
+    {
       "id": "articles",
       "label": "Articles",
       "icon": "FileText"
-    },
-    {
-      "id": "advice",
-      "label": "Advice",
-      "icon": "MessageCircle"
-    },
-    {
-      "id": "inspiration",
-      "label": "Inspiration",
-      "icon": "Sparkles"
     },
     {
       "id": "videos",

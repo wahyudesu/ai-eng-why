@@ -24,14 +24,16 @@ export default function HomePage() {
   const { personData, resourcesData } = parseReadme();
 
   const persons = personData.persons.map((p) => {
-    const twitterUrl = p.social?.twitter || "";
+    const sosmedUrl = p.sosmed || "";
+    const websiteUrl = (p as { website?: string }).website;
     return {
       id: p.id,
       icon: p.icon,
       title: p.name,
       description: p.role,
-      href: twitterUrl || undefined,
-      previewUrl: (p as { website?: string }).website || undefined,
+      country: p.country,
+      href: sosmedUrl || undefined,
+      previewUrl: websiteUrl || sosmedUrl || undefined,
     };
   });
 
@@ -69,7 +71,7 @@ export default function HomePage() {
 
           {/* AI Engineers Section */}
           <section className="gap-3">
-            <h2 className="text-xl font-medium text-foreground">
+            <h2 className="text-xl font-medium text-foreground mb-3">
               AI Engineers
             </h2>
             <InteractiveList items={persons} />
@@ -77,7 +79,7 @@ export default function HomePage() {
 
           {/* Resources Section */}
           <section className="gap-3">
-            <h2 className="text-xl font-medium text-foreground">Resources</h2>
+            <h2 className="text-xl font-medium text-foreground mb-3">Resources</h2>
             <p className="text-base text-muted-foreground mb-4">
               Learn AI engineering from the best resources
             </p>

@@ -9,8 +9,9 @@ export type ListItemProps = {
   icon: string;
   title: string;
   description?: string;
+  country?: string;
   href?: string;
-  previewUrl?: string; // For website hover preview (separate from href/twitter)
+  previewUrl?: string;
 };
 
 type InteractiveListProps = {
@@ -22,13 +23,13 @@ export function InteractiveList({ items, onItemClick }: InteractiveListProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   return (
-    <ul className="space-y-1.5 text-sm">
+    <ul className="space-y-2 text-sm">
       {items.map((item) => {
         const isHovered = hoveredId === item.id;
         const content = (
           <>
             {item.icon.startsWith?.("http") ? (
-              <Image src={item.icon} alt="" className="w-5 h-5 shrink-0" />
+              <Image src={item.icon} alt="" width={24} height={24} className="w-6 h-6 shrink-0 rounded-full object-cover" />
             ) : (
               <span className="text-base shrink-0">{item.icon}</span>
             )}
@@ -36,6 +37,11 @@ export function InteractiveList({ items, onItemClick }: InteractiveListProps) {
               <span className="text-foreground font-medium relative after:absolute after:bg-primary after:bottom-0 after:left-0 after:h-px after:w-full after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300 truncate">
                 {item.title}
               </span>
+              {item.country && (
+                <span className="text-base ml-1.5 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                  {item.country}
+                </span>
+              )}
               {item.description && (
                 <>
                   <span className="text-muted-foreground mx-1 shrink-0">-</span>

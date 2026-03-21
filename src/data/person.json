@@ -3,52 +3,55 @@
   "description": "Follow these amazing AI engineers, researchers, and practitioners on social media",
   "persons": [
     {
-      "id": "andrew-ng",
-      "name": "Andrew Ng",
-      "title": "AI/ML Expert & Founder at DeepLearning.AI",
-      "website": "https://www.deeplearning.ai",
-      "twitter": "https://x.com/AndrewYNg",
-      "icon": "https://www.google.com/s2/favicons?domain=www.deeplearning.ai&sz=128"
+      "id": "muhamad-akilie",
+      "name": "Muhamad Ariel Akilie",
+      "title": "AI Engineering Leader at Kata AI",
+      "country": "🇮🇩",
+      "sosmed": "https://www.linkedin.com/in/arielakilie/",
+      "icon": "https://i.pravatar.cc/150?u=arielakilie"
+    },
+    {
+      "id": "alfan-rahmawan",
+      "name": "Alfan Dinda Rahmawan",
+      "title": "Senior Data Scientist / AI Engineer at Glair",
+      "country": "🇮🇩",
+      "sosmed": "https://www.linkedin.com/in/alfandindarahmawan/",
+      "icon": "https://i.pravatar.cc/150?u=alfandindarahmawan"
     },
     {
       "id": "andrej-karpathy",
       "name": "Andrej Karpathy",
-      "title": "AI Researcher & Founder of Eureka Labs",
-      "website": "https://eureka.labs",
-      "twitter": "https://x.com/karpathy",
-      "icon": "https://www.google.com/s2/favicons?domain=eureka.labs&sz=128"
+      "title": "Ex-Director of AI at Tesla, Ex-Founding Member of OpenAI",
+      "country": "🇺🇸",
+      "website": "https://karpathy.github.io",
+      "sosmed": "https://x.com/karpathy",
+      "icon": "https://i.pravatar.cc/150?u=karpathy"
     },
     {
-      "id": "jerry-liu",
-      "name": "Jerry Liu",
-      "title": "Co-founder of LangChain & AI Engineer",
-      "website": "https://www.langchain.com",
-      "twitter": "https://x.com/jerryjliu",
-      "icon": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128"
+      "id": "andrew-ng",
+      "name": "Andrew Ng",
+      "title": "Co-Founder of Coursera, Founder of DeepLearning.AI",
+      "country": "🇺🇸",
+      "website": "https://www.deeplearning.ai",
+      "sosmed": "https://x.com/AndrewYNg",
+      "icon": "https://i.pravatar.cc/150?u=andrewng"
     },
     {
-      "id": "sadie-stlawrence",
-      "name": "Sadie St. Lawrence",
-      "title": "AI & Data Science Educator",
-      "website": "https://www.sadiestlawrence.com",
-      "twitter": "https://x.com/SadieStLawrence",
-      "icon": "https://www.google.com/s2/favicons?domain=www.sadiestlawrence.com&sz=128"
+      "id": "boris-cherny",
+      "name": "Boris Cherny",
+      "title": "Head of Claude Code at Anthropic",
+      "country": "🇺🇸",
+      "website": "https://borischerny.com",
+      "sosmed": "https://x.com/bcherny",
+      "icon": "https://i.pravatar.cc/150?u=bcherny"
     },
     {
-      "id": "harrison-chase",
-      "name": "Harrison Chase",
-      "title": "Founder & CEO of LangChain",
-      "website": "https://www.langchain.com",
-      "twitter": "https://x.com/harrisonchase",
-      "icon": "https://www.google.com/s2/favicons?domain=www.langchain.com&sz=128"
-    },
-    {
-      "id": "shyamal-anadkat",
-      "name": "Shyamal Anadkat",
-      "title": "AI Engineer & LlamaIndex Contributor",
-      "website": "https://www.llamaindex.ai",
-      "twitter": "https://x.com/shyamal_anadkat",
-      "icon": "https://www.google.com/s2/favicons?domain=www.llamaindex.ai&sz=128"
+      "id": "andrew-zhai",
+      "name": "Andrew Zhai",
+      "title": "ML Engineer",
+      "country": "🇺🇸",
+      "sosmed": "https://x.com/ZhaiAndrew",
+      "icon": "https://i.pravatar.cc/150?u=andrewzhai"
     }
   ]
 }

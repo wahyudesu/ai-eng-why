@@ -7,7 +7,7 @@ import type { IconType } from "react-icons";
 import { FaCode } from "react-icons/fa6";
 import { HiSparkles } from "react-icons/hi";
 import { HiDocumentText } from "react-icons/hi2";
-import { PiVideoDuotone } from "react-icons/pi";
+import { PiBookOpenDuotone, PiScrollDuotone, PiVideoDuotone } from "react-icons/pi";
 import { TbMessageCircle } from "react-icons/tb";
 
 const iconMap: Record<string, IconType> = {
@@ -16,6 +16,8 @@ const iconMap: Record<string, IconType> = {
   Code: FaCode,
   Sparkles: HiSparkles,
   MessageCircle: TbMessageCircle,
+  Book: PiBookOpenDuotone,
+  Scroll: PiScrollDuotone,
 };
 
 export type FilterOption = {

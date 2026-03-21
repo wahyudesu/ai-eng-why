@@ -6,9 +6,11 @@ type PersonWithWebsite = {
   id: string;
   name: string;
   role: string;
+  company: string;
+  country: string;
   icon: string;
-  social: { twitter: string };
-  website: string;
+  sosmed?: string;
+  website?: string;
 };
 
 export function parseReadme() {
@@ -17,11 +19,11 @@ export function parseReadme() {
     (p: any): PersonWithWebsite => ({
       id: p.id,
       name: p.name,
-      role: p.title, // title -> role for backward compatibility
+      role: p.title,
+      company: p.company,
+      country: p.country,
       icon: p.icon,
-      social: {
-        twitter: p.twitter,
-      },
+      sosmed: p.sosmed,
       website: p.website,
     }),
   );

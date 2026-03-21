@@ -11,6 +11,7 @@ const navItems = [
   { href: "/jobs", label: "jobs" },
   { href: "/courses", label: "courses" },
   { href: "/tools", label: "tools" },
+  { href: "/ai", label: "ai" },
 ];
 
 export function Navigation() {

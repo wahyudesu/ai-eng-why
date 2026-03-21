@@ -14,12 +14,42 @@ export const metadata: Metadata = {
   },
 };
 
+// Jobs page structured data
+const jobsPageLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "AI Engineering Jobs",
+  description:
+    "Explore curated AI engineering job opportunities at top companies like OpenAI, Anthropic, DeepMind, and more. Remote and on-site positions available.",
+  url: "https://aieng.wahyuikbal.com/jobs",
+};
+
+const breadcrumbLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://aieng.wahyuikbal.com",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Jobs",
+      item: "https://aieng.wahyuikbal.com/jobs",
+    },
+  ],
+};
+
 import { Clock, DollarSign, MapPin } from "lucide-react";
 import Image from "next/image";
 import { AsciiAi } from "@/components/ascii-ai";
 import { Button } from "@/components/ui/button";
 
 export default function JobsPage() {
+  const jobs = [
   const jobs = [
     {
       id: 1,
@@ -74,7 +104,20 @@ export default function JobsPage() {
   ];
 
   return (
-    <div className="min-h-screen font-sans selection:bg-foreground/10 dark:selection:bg-foreground/20">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jobsPageLd),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbLd),
+        }}
+      />
+      <div className="min-h-screen font-sans selection:bg-foreground/10 dark:selection:bg-foreground/20">
       <div className="max-w-2xl mx-auto px-6 py-8">
         <Navigation />
 
@@ -159,5 +202,6 @@ export default function JobsPage() {
         </main>
       </div>
     </div>
+    </>
   );
 }

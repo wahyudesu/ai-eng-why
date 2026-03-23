@@ -22,11 +22,6 @@ export function Navigation() {
       <ul className="flex gap-4 text-sm text-muted-foreground">
         {navItems.map((item) => (
           <li key={item.href} className="flex flex-col items-center gap-0.5">
-            {item.badge && (
-              <span className="text-[9px] leading-none px-1 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
-                {item.badge}
-              </span>
-            )}
             <Link
               href={item.href}
               className={`transition-colors duration-200 ${
@@ -37,6 +32,11 @@ export function Navigation() {
             >
               {item.label}
             </Link>
+            {item.badge && pathname !== item.href && (
+              <span className="text-[9px] leading-none px-1 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
+                {item.badge}
+              </span>
+            )}
           </li>
         ))}
       </ul>

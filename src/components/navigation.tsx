@@ -10,7 +10,7 @@ const navItems = [
   { href: "/", label: "home" },
   { href: "/jobs", label: "jobs" },
   { href: "/courses", label: "courses" },
-  { href: "/toolkit", label: "toolkit" },
+  { href: "/toolkit", label: "toolkit", badge: "new" },
   { href: "/ai", label: "ai" },
 ];
 
@@ -21,7 +21,12 @@ export function Navigation() {
     <nav className="flex justify-between items-center py-2">
       <ul className="flex gap-4 text-sm text-muted-foreground">
         {navItems.map((item) => (
-          <li key={item.href}>
+          <li key={item.href} className="flex flex-col items-center gap-0.5">
+            {item.badge && (
+              <span className="text-[9px] leading-none px-1 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
+                {item.badge}
+              </span>
+            )}
             <Link
               href={item.href}
               className={`transition-colors duration-200 ${

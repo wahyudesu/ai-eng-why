@@ -5,7 +5,7 @@
     {
       "id": "llm-gateway",
       "label": "LLM Gateway / Provider",
-      "icon": "🔌",
+      "icon": "",
       "tools": [
         {
           "id": "openai",
@@ -42,7 +42,7 @@
     {
       "id": "agent-framework",
       "label": "Agent Framework",
-      "icon": "🤖",
+      "icon": "",
       "tools": [
         {
           "id": "langchain",
@@ -85,7 +85,7 @@
     {
       "id": "no-code",
       "label": "No Code",
-      "icon": "🎨",
+      "icon": "",
       "tools": [
         {
           "id": "n8n",
@@ -110,7 +110,7 @@
     {
       "id": "observability",
       "label": "Observability",
-      "icon": "📊",
+      "icon": "",
       "tools": [
         {
           "id": "langsmith",
@@ -123,7 +123,7 @@
     {
       "id": "local-dev",
       "label": "Local Development",
-      "icon": "💻",
+      "icon": "",
       "tools": [
         {
           "id": "ollama",

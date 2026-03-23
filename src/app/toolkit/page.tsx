@@ -5,9 +5,9 @@ import { parseReadme } from "@/lib/readme-parser";
 import { AsciiAi } from "@/components/ascii-ai";
 
 export const metadata: Metadata = {
-  title: "Toolkit",
+  title: "Toolkit - AI Engineering Tools & Frameworks",
   description:
-    "Essential AI engineering tools, frameworks, and platforms for building intelligent applications. Curated list of developer resources.",
+    "Curated collection of AI engineering tools including LLM providers, vector databases, agent frameworks, no-code platforms, and local development tools.",
   alternates: {
     canonical: "https://aieng.wahyuikbal.com/toolkit",
   },
@@ -30,11 +30,10 @@ export default function ToolsPage() {
             <AsciiAi />
 
             <h1 className="text-2xl font-medium text-foreground mb-3">
-              AI Engineering
+              Toolkit
             </h1>
             <p className="text-base text-muted-foreground">
-              The best AI & ML engineers on the internet, and everything you
-              need to become one
+              {toolkitData.description}
             </p>
           </header>
 

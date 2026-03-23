@@ -5,9 +5,9 @@ import { JobCardList } from "@/components/ui/job-card-list";
 import { parseReadme } from "@/lib/readme-parser";
 
 export const metadata: Metadata = {
-  title: "Jobs",
+  title: "Jobs - AI Engineering Opportunities",
   description:
-    "Explore curated AI engineering job opportunities at top companies like OpenAI, Anthropic, DeepMind, and more. Remote and on-site positions available.",
+    "Curated AI, ML, and Data Science job openings from top companies. Full-time, part-time, and internship positions available.",
   alternates: {
     canonical: "https://aieng.wahyuikbal.com/jobs",
   },
@@ -30,11 +30,10 @@ export default function JobsPage() {
             <AsciiAi />
 
             <h1 className="text-2xl font-medium text-foreground mb-3">
-              AI Engineering
+              Jobs
             </h1>
             <p className="text-base text-muted-foreground">
-              The best AI & ML engineers on the internet, and everything you
-              need to become one
+              {jobsData.description}
             </p>
           </header>
 

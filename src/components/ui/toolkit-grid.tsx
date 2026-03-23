@@ -40,7 +40,7 @@ export function ToolkitGrid({ categories }: ToolkitGridProps) {
           {category.tools.length === 0 ? (
             <p className="text-sm text-muted-foreground italic">Coming soon...</p>
           ) : (
-            <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 gap-1.5">
+            <div className="grid grid-cols-10 sm:grid-cols-12 md:grid-cols-14 gap-1">
               {category.tools.map((tool) => (
                 <motion.a
                   key={tool.id}
@@ -56,7 +56,7 @@ export function ToolkitGrid({ categories }: ToolkitGridProps) {
                   <div
                     className={`w-full h-full rounded overflow-hidden transition-all duration-200 ${
                       hoveredTool && hoveredTool !== tool.id
-                        ? "opacity-40"
+                        ? "opacity-75"
                         : "opacity-100"
                     }`}
                   >
@@ -64,12 +64,12 @@ export function ToolkitGrid({ categories }: ToolkitGridProps) {
                       <Image
                         src={tool.icon}
                         alt={tool.name}
-                        width={64}
-                        height={64}
+                        width={48}
+                        height={48}
                         className="w-full h-full object-cover"
                       />
                     ) : (
-                      <div className="w-full h-full flex items-center justify-center text-2xl bg-neutral-100 dark:bg-neutral-800">
+                      <div className="w-full h-full flex items-center justify-center text-lg bg-neutral-100 dark:bg-neutral-800">
                         {tool.icon}
                       </div>
                     )}
@@ -78,12 +78,12 @@ export function ToolkitGrid({ categories }: ToolkitGridProps) {
                   {/* Tooltip */}
                   {hoveredTool === tool.id && (
                     <motion.div
-                      initial={{ opacity: 0, y: 4 }}
+                      initial={{ opacity: 0, y: -4 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-foreground text-background text-xs rounded whitespace-nowrap z-10"
+                      className="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-foreground text-background text-xs rounded whitespace-nowrap z-10"
                     >
                       {tool.name}
-                      <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-foreground" />
+                      <div className="absolute bottom-full left-1/2 -translate-x-1/2 border-4 border-transparent border-b-foreground" />
                     </motion.div>
                   )}
                 </motion.a>

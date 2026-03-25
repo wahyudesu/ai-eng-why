@@ -65,6 +65,87 @@
       "icon": "https://icon.horse/icon/www.oreilly.com"
     },
     {
+      "id": "datacamp-associate-ai-engineer",
+      "title": "Associate AI Engineer for Data Scientists",
+      "description": "DataCamp track covering AI engineering fundamentals for data scientists",
+      "category": "Courses",
+      "duration": "long",
+      "href": "https://www.datacamp.com/tracks/associate-ai-engineer-for-data-scientists",
+      "icon": "https://icon.horse/icon/www.datacamp.com"
+    },
+    {
+      "id": "mlops-zoomcamp",
+      "title": "MLOps Zoomcamp",
+      "description": "Free MLOps course by DataTalks.club covering the full ML lifecycle",
+      "category": "Courses",
+      "duration": "long",
+      "href": "https://datatalks.club/blog/mlops-zoomcamp.html",
+      "icon": "https://icon.horse/icon/datatalks.club"
+    },
+    {
+      "id": "hf-agents-course",
+      "title": "Hugging Face Agents Course",
+      "description": "Learn to build AI agents that can reason and act using tools",
+      "category": "Courses",
+      "duration": "short",
+      "href": "https://huggingface.co/learn/agents-course/",
+      "icon": "https://icon.horse/icon/huggingface.co"
+    },
+    {
+      "id": "hf-llm-course",
+      "title": "Hugging Face LLM Course",
+      "description": "Comprehensive course on Large Language Models and NLP",
+      "category": "Courses",
+      "duration": "short",
+      "href": "https://huggingface.co/learn/llm-course/",
+      "icon": "https://icon.horse/icon/huggingface.co"
+    },
+    {
+      "id": "coursera-generative-ai-llms",
+      "title": "Generative AI with Large Language Models",
+      "description": "Coursera course by DeepLearning.AI & AWS on generative AI and LLMs",
+      "category": "Courses",
+      "duration": "long",
+      "href": "https://www.coursera.org/learn/generative-ai-with-llms",
+      "icon": "https://icon.horse/icon/www.coursera.org"
+    },
+    {
+      "id": "deeplearning-ai-generative-ai-everyone",
+      "title": "Generative AI for Everyone",
+      "description": "DeepLearning.AI course introducing generative AI concepts for all levels",
+      "category": "Courses",
+      "duration": "long",
+      "href": "https://www.deeplearning.ai/courses/generative-ai-for-everyone/",
+      "icon": "https://icon.horse/icon/www.deeplearning.ai"
+    },
+    {
+      "id": "anthropic-course",
+      "title": "Anthropic Course",
+      "description": "Official Anthropic courses on building with Claude and AI engineering",
+      "category": "Courses",
+      "duration": "short",
+      "href": "https://anthropic.skilljar.com",
+      "icon": "https://icon.horse/icon/anthropic.skilljar.com"
+    },
+    {
+      "id": "kaggle-learn",
+      "title": "Kaggle Learn",
+      "description": "Free micro-courses on Python, data science, ML, and AI",
+      "category": "Courses",
+      "duration": "short",
+      "href": "https://www.kaggle.com/learn",
+      "icon": "https://icon.horse/icon/www.kaggle.com"
+    },
+    {
+      "id": "langchain-academy",
+      "title": "LangChain Academy",
+      "description": "Official courses on building LLM applications with LangChain",
+      "category": "Courses",
+      "duration": "short",
+      "href": "https://academy.langchain.com/collections/products",
+      "icon": "https://icon.horse/icon/academy.langchain.com"
+    },
+    {
       "id": "sebastian-raschka-magazine",
       "title": "Sebastian Raschka's Magazine",
       "description": "Latest developments and research trends in ML and AI",
@@ -178,6 +259,11 @@
       "id": "code",
       "label": "Code",
       "icon": "Code"
+    },
+    {
+      "id": "courses",
+      "label": "Courses",
+      "icon": "GraduationCap"
     }
   ]
 }

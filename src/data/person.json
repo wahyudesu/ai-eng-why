@@ -3,20 +3,24 @@
   "description": "Follow these amazing AI engineers, researchers, and practitioners on social media",
   "persons": [
     {
-      "id": "muhamad-akilie",
-      "name": "Muhamad Ariel Akilie",
-      "title": "AI Engineering Leader at Kata AI",
+      "id": "arda-putra-ryandika",
+      "name": "Arda Putra Ryandika",
+      "title": "Lead of AI at Invenio Potential",
       "country": "🇮🇩",
-      "sosmed": "https://www.linkedin.com/in/arielakilie/",
-      "icon": "https://media.licdn.com/dms/image/v2/D5603AQH0oVEaI8J_Qw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731366193792?e=1775692800&v=beta&t=Nv6JQ5ZmIIY25E75b1EM1-MmheZpvbX-qNQRIboXCNk"
+      "website": "https://ardaputra.com",
+      "sosmed": "https://www.linkedin.com/in/ardaputra/",
+      "threads": "https://www.threads.com/@ardaputra",
+      "icon": "https://icon.horse/icon/ardaputra.com"
     },
     {
-      "id": "alfan-rahmawan",
-      "name": "Alfan Dinda Rahmawan",
-      "title": "Senior Data Scientist / AI Engineer at Glair",
+      "id": "aurelius-ivan-wijaya",
+      "name": "Aurelius Ivan Wijaya",
+      "title": "Lead AI Scientist at Simple",
       "country": "🇮🇩",
-      "sosmed": "https://www.linkedin.com/in/alfandindarahmawan/",
-      "icon": "https://media.licdn.com/dms/image/v2/C5603AQFVxOqLJIKTMg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1602080431106?e=1775692800&v=beta&t=CZNnzpeiOwrZgtoODN6ZD3wrbUX2llnxmFdcB5G0scw"
+      "website": "https://aurelivan.com",
+      "sosmed": "https://www.linkedin.com/in/aurelius-ivan-wijaya/",
+      "threads": "https://www.threads.com/@aureli.van",
+      "icon": "https://icon.horse/icon/aurelivan.com"
     },
     {
       "id": "andrej-karpathy",

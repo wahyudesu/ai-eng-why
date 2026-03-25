@@ -130,10 +130,10 @@ function ToolButton({ tool }: { tool: Tool }) {
       href={tool.href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-2 py-1.5 px-2.5 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors min-w-0"
+      className="inline-flex items-center gap-2 py-2 px-3 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors min-w-0"
     >
       <ToolIcon tool={tool} />
-      <span className="text-xs text-foreground whitespace-nowrap">
+      <span className="text-sm text-foreground whitespace-nowrap">
         {tool.name}
       </span>
     </a>

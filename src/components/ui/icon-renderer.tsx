@@ -77,6 +77,9 @@ const PROVIDER_MAP: Record<string, string> = {
   "facebook.com": "meta",
   "instagram.com": "instagram",
   "tiktok.com": "tiktok",
+  "palantir.com": "palantir",
+  "garena.com": "garena",
+  "tinder.com": "tinder",
 };
 
 // Extract domain from URL

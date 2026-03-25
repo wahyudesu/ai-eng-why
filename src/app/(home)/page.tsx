@@ -45,6 +45,7 @@ export default function HomePage() {
       description: r.description,
       href: r.href,
       category: r.category,
+      duration: r.duration,
     }))
     .sort((a, b) => a.title.localeCompare(b.title));
 

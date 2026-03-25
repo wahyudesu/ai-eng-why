@@ -9,7 +9,7 @@ import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 const navItems = [
   { href: "/", label: "home" },
   { href: "/jobs", label: "jobs" },
-  { href: "/courses", label: "courses" },
+  { href: "/handbook", label: "handbook" },
   { href: "/toolkit", label: "toolkit", badge: "new" },
   { href: "/ai", label: "ai" },
 ];

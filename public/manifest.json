@@ -1,7 +1,7 @@
 {
   "name": "AI Engineering",
   "short_name": "AI Eng",
-  "description": "Discover the best AI engineers, courses, jobs, tools, and resources for building intelligent applications.",
+  "description": "Discover the best AI engineers, jobs, tools, and resources for building intelligent applications.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
@@ -38,10 +38,10 @@
       "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
     },
     {
-      "name": "Courses",
-      "short_name": "Courses",
-      "description": "Find AI engineering courses",
-      "url": "/courses",
+      "name": "Handbook",
+      "short_name": "Handbook",
+      "description": "AI engineering handbook",
+      "url": "/handbook",
       "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
     },
     {
